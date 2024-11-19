@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.lightglow.encumbered.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin",
+    "PlayerInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

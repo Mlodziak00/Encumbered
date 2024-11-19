@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "encumberedstone",
+	"version": "${version}",
+	"name": "Encumbered",
+	"description": "A mod that adds an Encumbering Stone from Terraria",
+	"authors": [
+		"Mlodziak00"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/encumberedstone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lightglow.encumbered.Encumbered"
+		]
+	},
+	"mixins": [
+		"encumberedstone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_1661": ["net/lightglow/encumbered/ItemEncumberedInventoryGetter"]
+		}
+	}
+}

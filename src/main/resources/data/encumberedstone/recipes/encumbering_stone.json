@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:stone"
+    },
+    "y": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "encumberedstone:encumbering_stone"
+  }
+}
